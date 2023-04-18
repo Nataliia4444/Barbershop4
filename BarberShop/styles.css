@@ -1,0 +1,317 @@
+/* Body */
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #555555;
+    /* background-color: #fff; */
+    background-color: black;
+}
+/* Reset */
+
+.list{
+list-style: none;
+}
+
+.link{
+text-decoration: none;
+}
+
+/* Header-styles */
+
+
+.header-nav-link{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.3;
+letter-spacing: 0.1em;
+color: #ffffff;
+}
+
+
+.header-nav-link:hover,
+.header-nav-link:focus{
+color: #FF6C00;
+}
+
+
+.address-link{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.3;
+letter-spacing: 0.1em;
+color: #fff;
+}
+
+.button{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.3;
+letter-spacing: 0.09em;
+border-radius: 25px;
+color:#fff;
+background-color: darkorange;
+border: 5px solid white;
+}
+
+.main-button{
+    color: black;
+}
+/* Hero-section */
+.sidebar-link{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.3;
+letter-spacing: 0.2em;
+border-radius: 25px;
+color: #303030;
+cursor: pointer;
+}
+
+
+.sidebar-link:hover,
+.sidebar-link:focus{
+color: #FF6C00;
+}
+
+.hero-text{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.3;
+letter-spacing: 0.2em;
+border-radius: 25px;
+color:rgba(157, 164, 189, 0.6)
+}
+
+.hero-title{
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+font-size: 72px;
+line-height: 1.1;
+letter-spacing: 0.05em;
+color:#fff;
+}
+
+.hero-text{
+font-weight: 400;
+font-size: 18px;
+line-height: 1.6;
+letter-spacing: 0.02em;
+color:#9DA4BD;
+max-width: 360px;
+}
+
+.button-list{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.text{
+font-weight: 400;
+font-size: 11px;
+line-height: 1.3;
+letter-spacing: 0.2em;
+color:#303030;
+}
+
+.about-title{
+font-family:'Raleway', sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.2;
+letter-spacing: 0.05em;
+color:#303030;
+max-width: 470px;}
+
+.about-text{
+font-weight: 400;
+font-size: 18px;
+line-height: 1.7;
+letter-spacing: 0.02em;
+color:#555555;
+max-width: 470px;
+}
+
+.main-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0.02em;
+color:#555555;
+max-width: 470px;
+
+}
+/* Price */
+.price-text{
+ font-weight: 400;
+font-size: 11px;
+line-height: 1.3;
+letter-spacing: 0.02em;
+color:rgba(157, 164, 189, 0.6);
+max-width: 470px;
+}
+.price-title{
+font-family:'Raleway', sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.2;
+letter-spacing: 0.05em;
+color:#fff;
+max-width: 470px;}
+
+.price-list{
+font-weight: 400;
+font-size: 18px;
+line-height: 1.6;
+letter-spacing: 0.02em;
+color:#9DA4BD;
+}
+
+.benefit-text{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    color:#303030;
+}
+
+.description-text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color:#303030;
+    }
+
+.benefit-content-text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    color:#303030;
+}
+.benefit-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    color:#303030;
+}
+
+
+.content-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color:#555555;
+}
+
+/* Our Team */
+.team-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    color:#303030;
+    
+}
+.team-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    color:#303030;
+    
+}
+.team-caption{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color:#303030;
+}
+.team-description{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color: #FF6C00;
+}
+
+/* work examples */
+.subtitle{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color:#303030;
+}
+/* Address */
+.contacts-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color:#fff;
+}
+.address{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.address-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+   
+}
+.time{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+/* Footer */
+
+.footer-text{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.footer-link{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #FF6C00;
+}
+
+
+.sup{
+font-family: "Open Sans", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.4;
+color:#FF6C00;
+}
