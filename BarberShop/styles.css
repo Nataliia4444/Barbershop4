@@ -46,31 +46,33 @@ padding-right: 15px;
 
 
 .header-container{
-    min-width: 1200px;
+    max-width: 1200px;
     z-index: 2;
     position: fixed;
     top:0;
-    right: 100px;
-    outline: 4px solid tomato;
+    left: 0;
+    right: 0;
     display: flex;
-    padding-top: 52px;
-    padding-bottom: 52px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: rgba(16, 16, 17, 0.978);
+
 }
 
 .header-nav{
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    margin-right: auto;
    
 } 
 
 .address-list{
-    outline: 3px solid hotpink;
     display: flex;
-    margin-left: auto;
-    gap: 40px;
+    gap: 20px;
 }
 
 .header-nav-link{
+    margin-left: 50px;
 font-weight: 600;
 font-size: 12px;
 line-height: 1.3;
@@ -315,13 +317,13 @@ margin-bottom: 44px;
     padding-bottom: 120px;
     gap: 30px;
     display: flex;
-    outline: 3px solid black;
+  
 }
 
 .benefit-content{
     min-height: 334px;
     min-width: 570px;
-    outline: 3px solid black;
+
     display: block;
     margin-bottom: 20px;
 }
@@ -333,7 +335,6 @@ margin-bottom: 44px;
     display: flex;
     flex-wrap: wrap;
     min-width: 570px;
-    outline: 3px solid black;
 }
 
 .benefit-text{
@@ -403,14 +404,17 @@ max-height: 93px;
 }
 
 /* Our Team */
+/* 
+.team-list{
+    max-width: 400px;
+} */
 
 .team-container{
-    outline: 2px solid darkslategray;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .team-wrapper{
-    outline: 5px solid gold;
+
     display: flex;
     gap: 30px;
     flex-wrap:nowrap;
@@ -422,9 +426,9 @@ margin-bottom: 30px;
 
 }
 .team-wrapper-container{
-    outline: 2px solid darkcyan;
-    min-width: 206px;
-    min-height: 126px;
+    margin-left: 80px;
+    max-width: 206px;
+    max-height: 126px;
     text-align: center;
 }
 .team-text{
@@ -466,7 +470,6 @@ margin-bottom: 30px;
 
 /* work examples */
 .example-container{
-    outline: 3px solid greenyellow;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -494,21 +497,84 @@ margin-bottom: 30px;
     line-height: 1.2;
     letter-spacing: 0.05em;
     color:#fff;
+    margin-bottom: 44px;
+
 }
 .address{
+    display: block;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.02em;
     color: #9DA4BD;
+
+    margin-bottom: 20px;
+}
+.contacts-nav-link{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    margin-bottom: 20px;
+ 
+}
+.contacts-link{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    margin-bottom: 72px;
+ 
+   
 }
 .address-link{
+    display: inline-block;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.02em;
     color: #9DA4BD;
    
+}
+.address-nav-link{
+   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+  
+}
+.booking-container{
+    max-width: 585px;
+    min-height: 380px;
+    background-color: black;
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.7),
+        rgba(46, 47, 66, 0.7));
+    
+}
+
+.address-nav{
+    padding-left: 100px;
+    background-image: linear-gradient(
+rgba(0, 0, 0, 0.9),
+rgba(46, 47, 66, 0.9)),url(./4bd1963510d23357075bc4fa1c6c7fad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 585px;
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.address-container{
+
+  display: flex;
 }
 .time{
     font-weight: 400;
@@ -526,9 +592,16 @@ margin-bottom: 30px;
     line-height: 1.4;
     letter-spacing: 0.02em;
     color: #9DA4BD;
+    margin-right: auto;
+}
+
+.footer-list{
+    display: flex;
+    gap: 40px;
 }
 
 .footer-link{
+
     font-weight: 400;
     font-size: 11px;
     line-height: 1.4;
@@ -540,7 +613,11 @@ margin-bottom: 30px;
 .footer-link:focus {
     color: #FF6C00;
 }
-
+.footer-container{
+    display: flex;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
 
 .sup{
 font-family: "Open Sans", sans-serif;
@@ -552,8 +629,7 @@ color:#FF6C00;
 /* icon */
 .social{
 display:flex;
-gap: 24px;
-justify-content: center;
+gap: 2px;
 margin-top: 8px;
 }
 
@@ -578,12 +654,12 @@ max-width: 16px;
 fill: var(--cloud);
 }
 .overlay{
-    position: relative;
     z-index: 1;
-    width: 1070px;
+    width: 1200px;
     height: 680px;
     background-image: url(./slider.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
